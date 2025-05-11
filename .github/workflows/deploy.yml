@@ -19,5 +19,3 @@ jobs:
           host: ${{ secrets.EC2_HOST }}
           username: ubuntu
           key: ${{ secrets.EC2_KEY }}
-          script: |
-            bash ~/springboot-app/deploy.sh
